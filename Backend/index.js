@@ -3,6 +3,8 @@ import { Todo } from "./db.js";
 import { createtodo } from "./types.js";
 const app = express();
 app.use(express.json());
+import cors from "cors";      
+app.use(cors());
 
 app.post("/todo", async (req, res) => {
   const createpayload = req.body;
