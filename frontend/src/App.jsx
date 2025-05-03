@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-
+import "./App.css";
+import "./index.css";
 import { CreateTodo } from "./components/CreateTodo";
 import { Todos } from "./components/Todos";
 
