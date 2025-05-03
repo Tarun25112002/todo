@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 mongoose.connect(
-  "mongodb+srv://Tarun_Jha:1jn4mYARFA6wthsQ@tarun2002.ufv9tlf.mongodb.net/First_DataBase"
+  "mongodb+srv://"
 );
 const todoSchema = new mongoose.Schema({
     title: String,
