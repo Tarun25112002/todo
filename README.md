@@ -1,4 +1,4 @@
-# Todo App Backend
+# Todo App
 
 This is a simple backend for a Todo application built with Node.js, Express, and MongoDB.
 
